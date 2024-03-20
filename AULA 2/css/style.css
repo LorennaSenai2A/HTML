@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body{
+    /*background: url(../img/carinho.jpg) no-repeat top/cover;*/
+    background: #af00df ;
+    color: #cc90f5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Madimi One", 
+    sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+}
+
+a{ 
+    text-decoration: none;
+    color: #fafafa;
+    text-shadow: -4px 2px 2px rgb(65, 63, 67) ;
+}
+.textoCentro {
+margin-top: 0;
+padding: 10px;
+}
+.fundoLindo{
+    background: #c38fff ;
+}
+h1 a {
+    background: #b669f9;
+    padding: 5px;
+    border: solid 1px #af00df;
+    border-radius: 30px;
+    box-shadow: -4px 2px 2px #af00df;
+}
+
+h1 a:hover {
+    background: #af00df;
+}
