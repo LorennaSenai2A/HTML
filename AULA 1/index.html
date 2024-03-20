@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorenna</title>
+
+    <style contenteditable>
+      body {
+        background: #af00df;
+        color: #cc90f5;
+        text-shadow: -4px 2px 2px rgb(142, 47, 206);
+      }
+
+      h1 {
+        color: #ffffff;
+        background: #e27aff;
+        text-align: center;
+      }
+      p {
+        text-shadow: none;
+        text-align: center;
+      }
+      del {
+        text-decoration-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body contenteditable>
+    <h1>Aula 01 - HTML | CSS | JS</h1>
+    <h2>Alerta de mensagem</h2>
+
+    <p style="text-align: center">
+      <button onclick="alerta()" style="">Alerta</button>
+    </p>
+    <h2>Alterando a cor do fundo do site clicando em uma das cores abaixo:</h2>
+
+    <p style="text-align: center">
+      <!-- ip professor 192.168.1.141:5500-->
+
+      <button onclick="red()">VERMELHO</button>
+
+      <button onclick="blue()">AZUL</button>
+
+      <button onclick="grenn()">VERDE</button>
+    </p>
+  </body>
+
+  <script>
+    console.log("Olá Mundo!");
+
+    function alerta() {
+      var nome = prompt("Olá, informe seu nome:");
+      alert(`Olá ${nome}!`);
+    }
+
+    function red() {
+      document.getElementsByTagName("body")[0].style.background = "red";
+    }
+
+    function blue() {
+      document.getElementsByTagName("body")[0].style.background = "blue";
+    }
+
+    function grenn() {
+      document.getElementsByTagName("body")[0].style.background = "green";
+    }
+  </script>
+</html>
