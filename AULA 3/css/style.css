@@ -8,7 +8,7 @@
 /* Ativo somente no Dark Mode */
 
 :root {
-  --bg-url: url(../img/fundoNoite.jpg);
+  --bg-url: url(../img/fundoNoturno.png);
   --text-color: #fff;
   --stroke-color: rgba(255,255,255,0.5);
   --surface-color: rgba(255,255,255,0.1);
@@ -20,12 +20,12 @@
 /*class para criar o modo light */
 .light{
   --bg-url: url(../img/fundoDia.jpg);
-  --text-color: #7C4AE7;
-  --stroke-color: rgba(204,113,247,0.5);
+  --text-color: #fff;
+  --stroke-color: rgb(255, 255, 255);
   --surface-color: rgba(204,113,247,0.1);
-  --surface-color-hover: rgba(204,113,247,0.2);
+  --surface-color-hover: rgba(0,0,0,0.2);
   --switch-bg-url: url(../img/Sun.svg);
-  --highlight-color: rgba(204,113,247,0.3);
+  --highlight-color: rgba(0,0,0,0.3);
 }
 
 body {
