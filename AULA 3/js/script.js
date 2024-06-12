@@ -6,7 +6,8 @@ document.documentElement.classList.toggle("light");
 
 const isLight = document.documentElement.classList.contains("light");
 
-const imagem = isLight ? "../img/1d0f4b52-ce12-4c35-bd5d-acdabb92b2d6 1 (1).png" : "";
-
+const imagem = isLight ? "./img/foto2.jpeg" : "./img/foto1.jpeg"
 document.querySelector("#perfil img").setAttribute("src", imagem);
+const alt = isLight ? "Imagem de uma menina no campo" : "Imagem de uma menina na festa"
+document.querySelector("#perfil img").setAttribute("alt", alt);
 }
