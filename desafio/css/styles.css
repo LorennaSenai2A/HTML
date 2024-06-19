@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.cabecalho {
+  background: #000000;
+  color: aliceblue;
+  margin: 0px 0px 21.44px;
+  padding: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 5;
+  text-align: center;
+}
+
+#container {
+  margin: 100px 700px 0px;
+  width: 500px;
+  height: 550px;
+  background-color: #ebdbe077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  font-family: Roboto;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 5;
+  text-align: center;
+}
